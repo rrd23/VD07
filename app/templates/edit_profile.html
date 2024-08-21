@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <h2 class="mt-4">Edit Profile</h2>
+        <!-- Форма для редактирования профиля -->
         <form method="POST" action="{{ url_for('main.edit_profile') }}">
             {{ form.hidden_tag() }}
             <div class="form-group">
@@ -34,5 +35,3 @@
     </div>
 </body>
 </html>
-
-
